@@ -24,8 +24,8 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 @ResponseStatus(HttpStatus.SERVICE_UNAVAILABLE)
 public class ServiceException extends RuntimeException {
 
-  public ServiceException(Exception e) {
-    super("Service issue: " + e.getMessage());
-    addSuppressed(e);
+  public ServiceException(Exception excep) {
+    super("Service issue: " + excep.getMessage());
+    addSuppressed(excep);
   }
 }
