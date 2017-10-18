@@ -1,15 +1,15 @@
-#v0.2 (10/20/2017)
-#Release Notes
+# v0.2 (10/20/2017)
+# Release Notes
 
-##Notable Changes
+## Notable Changes
 The Barcelona Release (v 0.2) of the Core Exception library includes the following:
 * Application of Google Style Guidelines to the code base
 * POM changes for appropriate repository information for distribution/repos management, checkstyle plugins, etc.
 
-##Bug Fixes
+## Bug Fixes
 * None
 
-##Pull Request/Commit Details
+## Pull Request/Commit Details
  - [#7](https://github.com/edgexfoundry/core-exception/pull/7) - Remove staging plugin contributed by Jeremy Phelps ([JPWKU](https://github.com/JPWKU))
  - [#6](https://github.com/edgexfoundry/core-exception/pull/6) - added staging and snapshots repos to pom along with nexus staging mav… contributed by Jim White ([jpwhitemn](https://github.com/jpwhitemn))
  - [#5](https://github.com/edgexfoundry/core-exception/pull/5) - added nexus repos elements to pom contributed by Jim White ([jpwhitemn](https://github.com/jpwhitemn))
